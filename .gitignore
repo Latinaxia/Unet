@@ -1,0 +1,14 @@
+# Python
+data
+unet
+results
+# 忽略 models 目录下以 d 和 u 开头的文件
+models/d*
+models/unet_*
+models/_pycache_
+util.py
+utils/_pycache_
+
+
+git config --global user.name "Latinaxia"
+git config --global user.email "3276327856@qq.com"
