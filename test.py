@@ -36,7 +36,7 @@ def test():
 
     # 加载模型
     model = UNet().to(device)
-    model.load_state_dict(torch.load('models/unet_epoch_45.pth', map_location=device, weights_only=True))
+    model.load_state_dict(torch.load('models/unet_epoch_50.pth', map_location=device, weights_only=True))
     model.eval()
 
     # 定义测试专用的 transform（不含增强）
@@ -175,7 +175,7 @@ def test():
     plt.ylim(0, 255)  # 根据实际数据调整，如需更宽可设为 0~20
 
     plt.tight_layout()
-    plt.savefig('logs/metrics_trend_45_epoch.png')
+    plt.savefig('logs/metrics_trend_final_epoch.png')
     plt.close()
 
     print("Test results saved to logs/")

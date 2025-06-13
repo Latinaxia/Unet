@@ -7,8 +7,9 @@ models/d*
 models/unet_*
 models/_pycache_
 util.py
-utils/_pycache_
+utils/__pycache__/data_augmentation.cpython-312.pyc
+logs/metrics.csv
 
 
-git config --global user.name "Latinaxia"
-git config --global user.email "3276327856@qq.com"
+# git config --global user.name "Latinaxia"
+# git config --global user.email "3276327856@qq.com"
